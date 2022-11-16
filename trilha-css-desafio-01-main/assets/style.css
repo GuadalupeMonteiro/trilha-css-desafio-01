@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(images/banner.png);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    padding-top: 60px;
+    min-height: 650px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+section:not(#transform-world) {
+    margin: 0px 20px;
+}
+
+.logo img {
+    width: 100%;
+    margin: 1rem;
+}
+
+.logo {
+    max-width: 268px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner-content h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    margin: 16px 38px;
+}
+
+.banner-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 23px;
+    max-width: 600px;
+    margin: 16px auto 24px;
+}
+
+.banner-content button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 19px;
+    letter-spacing: 0.21em;
+    text-transform: uppercase;
+    color: #31A8DD;
+    background: none;
+    border: 2px solid #31A8DD;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    padding: 16px 32px;
+    margin: 24px auto 75px;
+}
+
+#course-content {
+    min-height: 420px;
+}
+
+#course-content h2,
+#professional-challenges h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+    text-transform: uppercase;
+    margin: 118px auto 0px;
+}
+
+#course-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    max-width: 792px;
+    margin: 24px auto;
+}
+
+span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #33A8DB;
+}
+
+.module {
+    padding: 16px;
+    max-width: 535px;
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    margin: 24px auto;
+}
+
+#transform-world {
+    background-color: transparent;
+    background-image: url(images/woman-code.png);
+    min-height: 560px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+#transform-world p {
+    max-width: 250px;
+    text-shadow: 3px 2px #33a8db;
+    font-weight: 900;
+    font-size: 2.5em;
+    line-height: 47px;
+    text-transform: lowercase;
+    margin: 160px 198px;
+}
+
+#professional-challenges h2 {
+    margin: 76px auto 32px;
+}
+
+[title~="Homem"] {
+    margin-bottom: 40px;
+}
+
+#professional-challenges p {
+    max-width: 792px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 0px auto 91px;
+}
+
+footer {
+    border-top: 1px solid #33A8DB;
+    background-image: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+}
+
+.dio-logo {
+    margin: 59px auto 10px;
+}
+
+footer p {
+    padding-bottom: 38px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #33A8DB;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    div#transform-world {
+        position: absolute;
+    }
+
+    #transform-world p {
+        position: relative;
+        right: 30%;
+        font-size: 2.2em;
+        width: 40%;
+        text-align: left;
+    }
+}
